@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: paintball-hub
+  datasource:
+    url: jdbc:postgresql://localhost:5432/paintball_hub
+    username: postgres
+    password: postgres
+    driver-class-nome: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
